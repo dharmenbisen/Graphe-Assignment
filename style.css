@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+  
+}
+body{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    margin: auto;
+    background: #FFFFFF;
+    border: 4px solid #000000;
+    border-radius: 70px;
+    padding: 0;
+}
+
+.nav-logo{
+    position: absolute;
+    width: 200px;
+    height: 99px;
+    left: 98px;
+    top: 72px;
+    color: #CECECE;
+    background-color:#FFFFFF ;
+}
+.profile{
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 686px;
+    top: 57px;
+    border-radius: 50px;
+    background: #D9D9D9;
+    
+    }
+.profile span{
+    background: #F1F1F1;
+    border-radius: 50px;
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 686px;
+    top: 57px;
+    
+    }
+.shoping-store{   
+    position: absolute;
+    width: 310px;
+    height: 78px;
+    left: 805px;
+    top: 58px; 
+    border-radius: 10px;
+    background: #F1F1F1;
+    border-radius: 50px;
+    align-items: auto;       
+}
+.store{
+    position: absolute;
+    left: 40.62%;
+    right: 15.62%;
+    top: 10.94%;
+    bottom: 10.94%;
+    
+}
+.location{
+    position: absolute;
+    width: 159px;
+    height: 45px;
+    left: 1152px;
+    top: 79px;
+
+}
+.srch{
+    position: absolute;
+    width: 130px;
+    height: 25px;
+    left: 1203px;
+    top: 88px;
+    border-color: #FFFFFF; 
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    outline: none;
+    border: none;   
+    
+}
+.nav-links{
+    display: flex;
+    top: 72px;
+    left: 50%;
+    padding: 20px 0;
+    align-items: center;
+}
+.cart{
+    position: absolute;
+    width: 63px;
+    height: 55px;
+    left: 1767px;
+    top: 72px;   
+}
+.cart p {
+    box-sizing: border-box;
+    position: absolute;
+    background: #F1F1F1;
+    border: 1px solid #000000;  border-radius: 7px;
+    width: 31px;
+    height: 19px;
+    left: 50px;
+    top: -1px;   
+}
+.cart p span{
+    position: absolute;
+    left: 18.11%;
+    right: 5.1%;
+    top: 6.76%;
+    bottom: 91.67%;
+    font-family: 'Product Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;    
+    color: #000000;
+}
+.like{
+    position: absolute;
+    width: 132px;
+    height: 44px;
+    left: 1014px;
+    top: 161px;  
+}
+.like span{
+    position: absolute;
+    width: 33px;
+    height: 34px;
+    left: -50px;
+    top: 10px;
+    background: #F1F1F1;
+    border-radius: 10px;
+    font-family: 'Product Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #BBBBBB;    
+}
+h2{
+    position: absolute;
+    width: 387px;
+    height: 419px;
+    left: 1417px;
+    top: 792px;
+    background: #D9D9D9;
+    border-radius: 64px;
+}
+.msg{
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 98px;
+    top: 954px;    
+}
+.total{
+    width: 387px;
+    height: 279px;
+    left: 1417px;
+    top: 792px;
+    position: absolute;
+    background: #D9D9D9;   
+    padding-bottom :1px;
+    border-top-left-radius: 64px;
+    border-top-right-radius: 64px;
+}
+.total h3{
+    width: 103px;
+    height: 39px;
+    left: 76px;
+    top: 32px;
+    position: absolute;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    font-family: 'Product Sans Black';
+    font-style: normal;
+    color: #FFFFFF;
+}
+.total .receipt{
+    position: absolute;
+    border: 2px solid #FFFFFF;
+    left: 72.67%;
+    right: 16.67%;
+    top: 32px;
+    bottom: 12.5%;    
+}
+.total h5{
+    font-family: 'Product Sans Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 109px;
+    position: absolute;
+    width: 177px;
+    height: 109px;
+    left: 76px;
+    top: 74px;
+    color: #000000;
+}
+.total span{   
+    position: absolute;
+    width: 145px;
+    height: 28px;
+    left: 76px;
+    top: 200px;
+    background: #C5C5C5;
+    border-radius: 11px;
+} 
+.total p{
+    position: absolute;
+    width: 111px;
+    height: 18px;
+    left: 93px;
+    top: 206px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+h4{
+    position: absolute;
+    width: 103px;
+    height: 39px;
+    left: 1476px;
+    top: 831px;
+    font-family: 'Product Sans Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;    
+    color: #FFFFFF;
+}
+.prev{
+    position: absolute;
+    width: 207px;
+    height: 245px;
+    left: 116px;
+    top: 488px;   
+}
+.next{
+    position: absolute;
+    width: 207px;
+    height: 245px;
+    left: 1653px;
+    top: 488px;  
+}
+/* main{
+    position: relative;
+    width: 3181px;
+height: 736px;
+left: -659px;
+top: 220px;
+    
+    
+    overflow: hidden;
+    
+   
+} */
+#orange{
+    position: absolute;
+    width: 659px;
+    height: 605px;
+    left: 555px;
+    top: 353px;    
+}
+#pear{
+    position: absolute;
+    width: 444px;
+    height: 728px;
+    left: 726px;
+    top: 253px;    
+}
+#apple{
+    position: absolute;
+    width: 602px;
+    height: 673px;
+    left: 655px;
+    top: 300px;    
+}
+.mySlides span{
+    font-family: 'MADE Soulmaze Outline';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 232px;
+    line-height: 306px;
+    position: absolute;
+    width: 1116px;
+    height: 306px;
+    left: 380px;
+    top: 232px;
+    text-align: center;
+    color: #000000;
+}
+h1{
+    position: absolute;
+    width: 1116px;
+    height: 306px;
+    left: 401px;
+    top: 232px;
+    font-family: 'MADE Soulmaze Outline';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 232px;
+    line-height: 306px;    
+    text-align: center;
+    color: #000000;
+}
+.add{
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    left: 912px;
+    top: 640px;
+    z-index: 1;
+    background: rgba(145, 145, 145, 0.6);
+    border: 15px;
+    border-radius: 28px;
+}
+.add span{
+    position: absolute;
+    width: 187px;
+    height: 49px;
+    left: -20px;
+    top: 120px;
+    font-family: 'Product Sans Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+}
